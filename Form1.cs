@@ -1,6 +1,6 @@
 using System.Diagnostics;
 
-namespace cs_form_1027_1;
+namespace cs_form_1102_1;
 
 public partial class Form1 : Form
 {
