@@ -1,4 +1,4 @@
-namespace cs_form_1102_1;
+﻿namespace cs_form_1102_1;
 
 partial class Form1
 {
@@ -29,6 +29,7 @@ partial class Form1
     private void InitializeComponent()
     {
         this.action = new System.Windows.Forms.Button();
+        this.action2 = new System.Windows.Forms.Button();
         this.SuspendLayout();
         //
         // action
@@ -40,6 +41,18 @@ partial class Form1
         this.action.Text = "実行";
         this.action.UseVisualStyleBackColor = true;
         this.action.Click += new System.EventHandler(this.action_Click);
+
+        //
+        // action2
+        //
+        this.action2.Location = new System.Drawing.Point(92 + 75 + 20, 62);
+        this.action2.Name = "action2";
+        this.action2.Size = new System.Drawing.Size(75, 23);
+        this.action2.TabIndex = 0;
+        this.action2.Text = "実行2";
+        this.action2.UseVisualStyleBackColor = true;
+        this.action2.Click += new System.EventHandler(this.action2_Click);
+
         //
         // Form1
         //
@@ -47,6 +60,7 @@ partial class Form1
         this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
         this.ClientSize = new System.Drawing.Size(800, 450);
         this.Controls.Add(this.action);
+        this.Controls.Add(this.action2);
         this.Name = "Form1";
         this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
         this.Text = "Form1";
@@ -56,5 +70,6 @@ partial class Form1
     #endregion
 
     private Button action;
+    private Button action2;
 
 }
